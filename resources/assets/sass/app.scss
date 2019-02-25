@@ -1,0 +1,37 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "variables";
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+header {
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+header .nav {
+  padding-top: 12px;
+}
+
+footer {
+  margin-top: 25px;
+  border-top: 1px solid $brand-primary;
+}
+
+h1 {
+  color: $brand-primary;
+}
+
+.navbar {
+  margin: 0 0 0 0;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+}
+
+
